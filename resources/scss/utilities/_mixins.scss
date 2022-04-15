@@ -1,12 +1,25 @@
 // mixins
 
-// Nav links
+// Nav link styling
+
 @mixin nav-link {
   text-align: center;
   border-radius: 5px;
   padding: 10px 0;
   display: block;
   width: 100%;
+}
+
+//Button styling
+
+@mixin btn-style {
+  margin-top: 15px;
+  width: 100%;
+  color: $white;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
 }
 
 // Images Centering
