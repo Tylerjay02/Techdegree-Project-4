@@ -1,5 +1,14 @@
 // mixins
 
+// Nav links
+@mixin nav-link {
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 0;
+  display: block;
+  width: 100%;
+}
+
 // Images Centering
 
 @mixin img {

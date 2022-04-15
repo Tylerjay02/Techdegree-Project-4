@@ -1,13 +1,5 @@
 //Partial imports
 
-@import 'utilities/variables';
-@import 'utilities/mixins';
-@import 'utilities/mediaquerys';
-@import 'component/button';
-@import 'component/images';
-@import 'component/grid';
-@import 'component/form';
-@import 'component/navigation';
-@import 'base/typography';
-@import 'base/basestyles';
- 
+@import 'utilities/index'; // Utilities has to go first otherwise an error with the _typography file occurs
+@import 'base/index';
+@import 'component/index';

@@ -1,5 +1,7 @@
 // Variables
 
+//Colors
+
 $color-text: rgb(119, 119, 119);
 $color-primary: rgb(88, 225, 193);
 $color-link: rgb(81, 221, 252);
@@ -52,3 +54,8 @@ $btns: (
   $col-10-flex: 83.33%;
   $col-11-flex: 91.67%;
   $col-12-flex: 100%;
+
+  // nav-link
+
+  $transition: background-color .1s ease-in-out,
+  color .1s ease-in-out;
