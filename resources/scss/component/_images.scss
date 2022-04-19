@@ -1,0 +1,19 @@
+/* ============================================= */
+/*              Images                           */
+/* ============================================= */
+
+.img {
+  &-avatar {
+    @include img;
+  }
+  &-frame {
+    @include img;
+    padding: 13px;
+    border: 1px solid #ccc;
+  }
+  &-logo {
+    @include img;
+    margin-top: $margin-top;
+  }
+}
+  

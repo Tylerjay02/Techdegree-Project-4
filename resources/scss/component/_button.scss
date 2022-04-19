@@ -1,0 +1,12 @@
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+.btn {
+  @include btn-style;
+}
+@each $btn, $color in $btns {
+  .btn-#{$btn} {
+    background-color: $color;
+  }
+}
