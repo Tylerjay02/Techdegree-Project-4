@@ -2,7 +2,7 @@
 /*              Buttons                          */
 /* ============================================= */
 
-.btn {
+.btn {  
   @include btn-style;
 }
 @each $btn, $color in $btns {
