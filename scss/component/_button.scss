@@ -2,11 +2,15 @@
 /*              Buttons                          */
 /* ============================================= */
 
-.btn {  
+.btn {
   @include btn-style;
 }
 @each $btn, $color in $btns {
   .btn-#{$btn} {
     background-color: $color;
+  }
+  .btn-#{$btn}:hover {
+    background-color: lighten($color, 25%);
+    transition: $transition;
   }
 }
