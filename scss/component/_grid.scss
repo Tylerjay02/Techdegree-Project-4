@@ -21,51 +21,51 @@
 
 .theme {
   &.col-1 {
-    background-color: #927bc1;
+    background-color: $col-1;
   }
 
   &.col-2 {
-    background-color: #fd7856;
+    background-color: $col-2;
   }
 
   &.col-3 {
-    background-color: #deb2ee;
+    background-color: $col-3;
   }
 
   &.col-4 {
-    background-color: #7ee6fd;
+    background-color: $col-4;
   }
 
   &.col-5 {
-    background-color: #88d9a0;
+    background-color: $col-5;
   }
 
   &.col-6 {
-    background-color: #4da2bb;
+    background-color: $col-6;
   }
 
   &.col-7 {
-    background-color: #ec9fa3;
+    background-color: $col-7;
   }
 
   &.col-8 {
-    background-color: #fd9f85;
+    background-color: $col-8;
   }
 
   &.col-9 {
-    background-color: #e4757a;
+    background-color: $col-9;
   }
 
   &.col-10 {
-    background-color: #63cc82;
+    background-color: $col-10;
   }
 
   &.col-11 {
-    background-color: $color-link;
+    background-color: $col-11;
   }
 
   &.col-12 {
-    background-color: #80e8d1;
+    background-color: $col-12;
   }
 }
 
