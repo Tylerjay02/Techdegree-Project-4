@@ -660,13 +660,13 @@ template {
   padding: 10px 0;
   display: block;
   width: 100%;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-/* line 12, ../../../../../../../../../../../../../Users/tylerflanagan/Desktop/TJ/Treehouse projects/Techdegree-Project-4/scss/component/_navigation.scss */
+/* line 13, ../../../../../../../../../../../../../Users/tylerflanagan/Desktop/TJ/Treehouse projects/Techdegree-Project-4/scss/component/_navigation.scss */
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
-  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 /* ============================================= */
