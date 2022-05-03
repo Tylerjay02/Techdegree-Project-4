@@ -7,6 +7,17 @@ $color-primary: #58e1c1;
 $color-link: #51ddfc;
 $white: #fff;
 
+// Button Colors
+$btns: (
+    'default': $color-link,
+    'success': #63cc82,
+    'error': #e4757a,
+    'warning': #fd7856,
+    'info': #927bc1,
+  );
+
+//Font
+
 $font-fam: 'Lato', sans-serif;
 $fw-light: 300;
 $fw-heavy: 700;
@@ -17,16 +28,6 @@ $max-width: 1400px;
 // MEdia querey breakpoint
 
 $break: 768px;
-
-// Button colors
-$btns: (
-    'default': $color-link,
-    'success': #63cc82,
-    'error': #e4757a,
-    'warning': #fd7856,
-    'info': #927bc1,
-  );
-
 
 //Grid Col colors
 
@@ -61,4 +62,4 @@ $btns: (
   // nav-link
 
   $transition: background-color .3s ease-in-out,
-  color .3s ease-in-out;
+   color .3s ease-in-out;

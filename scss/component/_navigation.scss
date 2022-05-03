@@ -9,7 +9,8 @@
   flex-direction: column;
   &-link {
     @include nav-link;
-    transition: $transition;
+    transition: background-color .3s ease-in-out,
+    color .3s ease-in-out;
       &:hover {
         color: $white;
         background-color: $color-primary;
